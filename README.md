@@ -11,6 +11,7 @@ convert.py in folder "data preparation" splits the dataset into training and tes
 ## Training Stage
 We will use a sequential model, starting with a simple model architecture, consisting of four Conv2D convolution layers, with our final output layer being a dense layer. Our output layer will have 10 nodes (num_labels) which matches the number of possible classifications.
 For compiling our model, we will use the following three parameters
+
 => Loss - Categorical Cross Entropy
 => Metrics - Accuracy
 => Optimizer - Adam
